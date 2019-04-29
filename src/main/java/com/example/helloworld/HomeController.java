@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public class HomeController {
 
     ArrayList<String> names = new ArrayList<>();
+    ArrayList<Integer> numbers = new ArrayList<>();
 
     @GetMapping("/")
     public String home() {
