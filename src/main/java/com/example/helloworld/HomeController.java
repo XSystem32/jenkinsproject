@@ -8,6 +8,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
+        System.out.println("Test the code line");
         return "index";
     }
 
