@@ -10,6 +10,7 @@ public class HomeController {
 
     ArrayList<String> names = new ArrayList<>();
     ArrayList<Integer> numbers = new ArrayList<>();
+    private String lion;
 
     @GetMapping("/")
     public String home() {
