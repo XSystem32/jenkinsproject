@@ -12,6 +12,8 @@ public class HomeController {
     ArrayList<Integer> numbers = new ArrayList<>();
     private String lion;
     private int bratha;
+    private double breTha;
+
 
     @GetMapping("/")
     public String home() {
